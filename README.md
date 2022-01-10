@@ -20,7 +20,7 @@ python from_file.py --file video.mp4
 ```
 The video will be fetched from files in the videos folder. 
 
-<video src='videos/annotated/video.gif' width=180/>
+![ezgif-2-aa20fef0ba](https://user-images.githubusercontent.com/48620867/148851976-0b00a107-03d5-4e62-9dd2-c0cc5dec0b6c.gif)
 
 ### Prerained weights
 The pretrained weights were computed by training the different subnets as described in the MTCNN paper. 
