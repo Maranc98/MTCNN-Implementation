@@ -18,3 +18,13 @@ To test on a video file instead use this command:
 python from_file.py --file video.mp4
 ```
 The video will be fetched from files in the videos folder.
+
+### Prerained weights
+The pretrained weights were computed by training the different subnets as described in the MTCNN paper. 
+Thus PNet, RNet and ONet were trained on WIDER FACE to detect the position of the bounding box of faces.
+ONet was also trained on facial landmark data found in the CelebA dataset.
+
+### Reference
+-[MTCNN: Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks](https://arxiv.org/ftp/arxiv/papers/1604/1604.02878.pdf)
+-[WIDER FACE: A Face Detection Benchmark](http://shuoyang1213.me/WIDERFACE/)
+-[CelebA: Large-scale CelebFaces Attributes Dataset](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
