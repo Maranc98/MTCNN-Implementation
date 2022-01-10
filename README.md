@@ -25,6 +25,6 @@ Thus PNet, RNet and ONet were trained on WIDER FACE to detect the position of th
 ONet was also trained on facial landmark data found in the CelebA dataset.
 
 ### Reference
--[MTCNN: Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks](https://arxiv.org/ftp/arxiv/papers/1604/1604.02878.pdf)
--[WIDER FACE: A Face Detection Benchmark](http://shuoyang1213.me/WIDERFACE/)
--[CelebA: Large-scale CelebFaces Attributes Dataset](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
+- [MTCNN: Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks](https://arxiv.org/ftp/arxiv/papers/1604/1604.02878.pdf)
+- [WIDER FACE: A Face Detection Benchmark](http://shuoyang1213.me/WIDERFACE/)
+- [CelebA: Large-scale CelebFaces Attributes Dataset](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
