@@ -19,6 +19,7 @@ To test on a video file instead use this command:
 python from_file.py --file video.mp4
 ```
 The video will be fetched from files in the videos folder. 
+This is an example of what an output file may look like. The video is a stock photo found online.
 
 ![ezgif-2-aa20fef0ba](https://user-images.githubusercontent.com/48620867/148851976-0b00a107-03d5-4e62-9dd2-c0cc5dec0b6c.gif)
 
