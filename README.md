@@ -9,6 +9,9 @@ My implementation of MTCNN
 ### Usage
 The provided code can be used to train and test a MTCNN model. Some pretrained weights are provided.
 A trained model can be tested on a video stream (from a webcam) or on video files using the following commands:
+
 `python realtime.py` 
+
 `python from_file.py --file video.mp4`
+
 The video will be fetched from files in the videos folder.
