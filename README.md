@@ -20,7 +20,7 @@ python from_file.py --file video.mp4
 ```
 The video will be fetched from files in the videos folder. 
 
-<video src='videos/annotated/video.avi' width=180/>
+<video src='videos/annotated/video.gif' width=180/>
 
 ### Prerained weights
 The pretrained weights were computed by training the different subnets as described in the MTCNN paper. 
