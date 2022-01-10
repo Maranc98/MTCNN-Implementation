@@ -1,10 +1,11 @@
 # MTCNN-Implementation
-My implementation of MTCNN
+My implementation of MTCNN.
 
 ### Prerequisites
-* Numpy: `pip install numpy`
-* CV2: `pip install opencv-python`
+The code was tested on python 3.8.
 * Pytorch: Go [here](http://pytorch.org/) to learn how to install the correct version for your environment.  
+* Pytorch-lightning: `pip install pytorch-lightning`
+* CV2: `pip install opencv-python`
 
 ### Usage
 The provided code can be used to train and test a MTCNN model. Some pretrained weights are provided.
@@ -17,7 +18,9 @@ To test on a video file instead use this command:
 ```
 python from_file.py --file video.mp4
 ```
-The video will be fetched from files in the videos folder.
+The video will be fetched from files in the videos folder. 
+
+<video src='videos/annotated/video.avi' width=180/>
 
 ### Prerained weights
 The pretrained weights were computed by training the different subnets as described in the MTCNN paper. 
